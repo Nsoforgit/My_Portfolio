@@ -1,0 +1,1702 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* #DDEAFB
+/* #022A65 blue*/
+
+/* laptop L of 1440 by 1024*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    /* background-color: aliceblue; */
+    background-image: conic-gradient(aliceblue, white, aliceblue);
+
+    
+}
+
+#header-content{
+    width: 600px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+#nav-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 40px 60px;
+    /* position: sticky; */
+    background-size: contain;
+}
+  
+#nav-icon > i {
+    font-size: 30px;
+    padding: 10px;
+    position: fixed;
+}
+
+#experience{
+    padding: 15px;
+    /* margin-top: 100px; */
+   
+    width: 100%;
+    
+}
+
+
+#experience >:first-of-type{
+    margin-left: 20px;
+    width: 100%;
+}
+#experience>div >a> button{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    font-size: 15px;
+
+    /* margin-left: 220px; */
+    border-radius: 7px;
+    border-bottom-right-radius: 25px;
+    border-color: black;
+    width: 160px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.year {
+    display: flex;
+    width: 410px;
+    height: 80px;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+  
+#div-num {
+    padding: 5px auto;
+    width: 120px;
+    height: 50px;
+    padding-right: 20px;
+}
+#div-num >p{
+    padding-top: 15px;
+}
+.num {
+    font-size: 55px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+  
+h1 {
+    margin-bottom: 25px;
+    /* font-size: 40px; */
+
+}
+  
+
+p {
+    font-size: 13px;
+    color: grey;
+    line-height: 25px;
+    font-family: "Poppins", sans-serif;
+}
+ 
+
+
+/* header image(My Profile) */
+#header-img {
+    /* background-image: url(NGO-FX.png); */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+img[alt="PROFILE"]{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0s right ;
+} 
+ 
+
+/* section-1 */
+
+#skills{
+    width: 100%;
+    /* height: 80vh; */
+    /* background-color: #F5F9FD; */
+    background-color:#DDEAFB ;
+
+}
+ 
+h2{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+h4 {
+    font-weight: normal;
+    color: #B7C5D3;
+    font-size: 40px;
+    margin-left: 30px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+ 
+#skills> div{
+    border: 2px solid red;
+    width: 800px;
+    height: 380px;
+    margin: auto;
+    
+    
+}
+ 
+#skills> div > div {
+    width: 750px;
+    height: 110px;
+    border: 1px solid blue;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+#skills> div > div> div{
+    width: 355px;
+    height: 90px;
+    border: 0.5px solid #B7C5D3;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+#skills> div > div> div:hover >div >div >img{
+    
+    transform: scale(1.2);
+}
+
+.skill-text {
+    display: flex;
+    justify-content: space-between;
+}
+img[alt="skill-logo"]{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 50px;
+    margin-top: 10px;
+}
+.logo1{
+    width: 45px;
+    height: 100%;
+}
+.logo-text {
+    width: 270px;
+    height: 50px;
+}
+ 
+.logo-text>p:first-of-type{
+    font-family:  cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: -18px;
+    color: #253D57;
+}
+.logo-text>p:last-of-type{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 15px;
+    
+}
+ 
+#services {
+    width:100% ;
+    /* height: 120vh; */
+    
+    
+}
+ 
+#services > div {
+    display: block;
+    border: 2px solid purple;
+    margin: auto;
+    width: 85%;
+    /* background-color: #022A65; */
+    /* justify-content: space-evenly; */
+}
+ 
+#services > div >div{
+    width: 40%;
+    /* height: fit-content; */
+    border: 1px solid #E2E8F0;
+    margin: 5px;
+    justify-content: space-between;
+    background-color: #DDEAFB;
+    border-radius: 10px;
+    padding: 10px;
+    /* position: relative; */
+
+}
+ 
+#services > div >div:hover{
+    border: 2px solid #910d0d;
+    /* background-color: #e4dd7e; */
+    border-radius: 5px;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+#services > div > div >.serve {
+    /* display: block; */
+    border: 0.5px solid red;
+    width: 100%;
+    
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+#services > div > div >.serve:last-of-type {
+    height: fit-content;
+    /* overflow: scroll; */
+}
+.ser-p{
+    line-height: 25px;
+}
+#services > div > div >.serve:first-of-type {
+    height: 231px;
+}
+img[alt="service-logo"]{
+    width:80% ;
+    
+    height: 100%;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 18px;
+}
+ 
+
+/* .empty{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+}
+
+#services:hover{
+    filter: blur(1.4px);
+} */
+#cv {
+    width: 100%;
+    background-color: aliceblue;
+}
+ 
+.cv-div {
+    width: 80%;
+    height: 170%;
+    border: 2px solid red;
+    margin: auto;
+    border-radius: 15px;
+
+}
+ 
+
+.cv-heading {
+    background-color: #022A65;
+    /* width: 100%; */
+    /* height: 18%; */
+    color: white;
+    padding:10px 10px ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.cv-heading > h1 {
+    margin-bottom: 0;
+}
+.cv-heading > div {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height:50% ;
+    /* border: 1px solid white; */
+}
+ 
+
+.cv-heading > div >div {
+    
+    width: 50%;
+    height:80% ;
+    /* border: 0.5px solid white; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.each-profile{
+    display: flex;
+    
+}
+.each-profile > div {
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+ 
+
+.each-profile > div > i{
+    padding-right: 10px;
+    font-size: 25px;
+}
+ 
+
+
+.cv-content{
+    width: 100%;
+    height: 82%;
+    padding: 20px 15px;
+}
+ 
+
+h5{
+    color: #253D57;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 23px;
+}
+ 
+
+.education > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.volunteer > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.p-cv-content{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+ 
+.ad-con{
+    border: 1px solid red;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+    margin: auto;
+}
+ 
+.ad-con > div{
+    border: 1px solid red;
+    width: 25%;
+    height: 70%;
+    
+}
+ 
+
+
+#project {
+    width: 100%;
+    height: 100vh;
+    background-color: #DDEAFB;
+}
+.project-div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 60%;
+    border: 1px solid red;
+}
+ 
+.pro-div1{
+    width: 60%;
+    border: 1px solid red;
+    background-image: url(5XeAtJ0unrA.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+
+.pro-div2 {
+    border: 2px solid #06223F ;
+    border-radius: 20px;
+    border-bottom-right-radius: 150px;
+    width: 40%;
+    height: 170px;
+    padding: 30px 20px;
+    line-height: 60px;
+    align-self: center;
+}
+ 
+
+.pro-div2 > a button{
+    background-color: #DDEAFB;
+    color: #022A65;
+    border: 2px solid #022A65;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 7px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+}
+ 
+
+#contact {
+    background-color: #022A65;
+    width: 100%;
+    padding-bottom: 30px;
+    
+    
+}
+.con-div{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #ffff ;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    
+
+}
+ 
+
+.cont-div1{
+    display: block;
+    width: 53%;
+    border: 1px solid #ffff ;
+    padding: 10px;
+    
+}
+ 
+.cont-div1 > button{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    border-bottom-right-radius: 25px;
+    border-color: black;
+    width: 160px;
+    height: 40px;
+
+}
+input{
+    width: 100%;
+    margin-top: 15px;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px solid #475569;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+ 
+
+#name{
+    height: 15%;
+}
+
+#email{
+    height: 15%;
+}
+ 
+textarea{
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+    width: 100%;
+    /* width: 350px; */
+    /* height: 82px; */
+    margin-top: 15px;
+    border-radius: 10px;
+}
+textarea::placeholder{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.cont-div2{
+    border: 1px solid white;
+    padding: 10px;
+    width: 100%;
+}
+.cont-div2>div{
+    margin-top: 20px;
+    color: #ffff;
+}
+footer{
+    background-color: #DDEAFB;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+footer>p:first-of-type{
+    font-size: 25px;
+    color: #06223F;
+}
+footer>p:last-of-type{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#popspan{
+    text-decoration: none;
+    
+}
+.container{
+    max-width: 500px;
+    max-height: 360px;
+
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 3px 5px #475569;
+    
+    
+    display: none;
+   
+}
+/* position: absolute;
+    inset: 50% auto auto 50%;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    max-width: 23rem; */
+.open-popUp{
+    display: block;
+    transform: scale(0.8);
+    
+}
+
+
+
+.container ol  {
+    font-size: 26px;
+    text-decoration-color: none;
+    padding: 10px;
+
+}
+.container ol li {
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    text-decoration: none;
+    color: #475569;
+    margin: auto;
+}
+.popclosebtn{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 7px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+    float: right;
+    margin-top: -30px;
+    margin-right: -10px;
+}
+#pop-skill-text{
+    justify-content: flex-start;
+    display: flex;
+    gap: 15px;
+}
+#pop-logo{
+    width: 55px;
+    height: 66px;
+    margin-top: 0px;
+}
+#pop-logo-text p{
+    font-size: 30px;
+    color: black;
+}
+
+@keyframes pop-message {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+a[href="#popspan"]{
+    color:black;
+}
+
+@media screen and (max-width:320px)  {
+    header{
+        display: block; /* The width is 100%, when the viewport is 800px or smaller */
+        justify-content: start;
+        width: 100%;
+        background-color: blue;
+        height: fit-content;
+    }
+    #project {
+        width: 100%;
+        height: fit-content;
+        background-color: #DDEAFB;
+    }
+
+    #header-contents {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #nav-icon{
+        width: 50px;
+        height: 50px;
+        margin: 20px 20px;
+    }
+    #experience {
+        width: 100%;
+        padding: 8px;
+        margin-left: 0px;
+        height: 390px;
+        /* background-color: #910d0d; */
+    }
+    #experience>div > button {
+        padding: 10px 15px;
+        margin-left: 30px;
+        width: auto;
+        margin-bottom: 0px;
+    }
+    .year {
+        width: 100%;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .num {
+        font-size: 45px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .ser-p{
+        font-size: 11px;
+        line-height: 22px;
+    }
+    #header-img {
+        width: 100%;
+        height: 75vh;
+        
+    }
+    #skills{
+        width: 100%;
+        /* height: 170vh; */
+    }
+    h2{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    #skills> div {
+        width: 100%;
+        height:fit-content;
+    }
+    #skills> div > div {
+        width: 100%;
+        height: 220px;
+        display: block;
+    }
+    #skills> div > div > div{
+        width: 85%;
+        height: 100px;
+        margin: 5px auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 5px;
+    }
+    .logo-text{
+        height: 100%;
+        width: auto;
+    }
+    .logo-text>p:last-of-type{
+        margin-left: 5px;
+    } 
+    #services {
+        height: 100%;
+        /* background-color: red; */
+        /* margin-top: -50px; */
+    }
+    #services > div {
+        /* display: block; */
+        /* width: 100%; */
+        height: 100%;
+    }
+    #services > div >div {
+        width: 85%;
+        margin-top: 10px;
+        margin: 10px auto;
+    
+    }
+    h3{
+    
+        font-size: 15px;    
+    }
+    #cv{
+        /* background-color: yellow; */
+        padding: 10px;
+    }
+    .cv-div{
+        width: 100%;
+    
+    }
+    .cv-heading > div {
+        display: block;
+    }
+    .each-profile > div {
+        font-size: 15px;
+        
+    }
+    .each-profile > div > i{
+        font-size: 18px;
+        
+    } 
+    .cv-content{
+        padding: 10px 10px;
+    }
+    .cv-content p {
+        font-size: 12px;
+        
+    }
+    .cv-heading h1{
+        font-size: 23px;
+                
+    }
+    h5 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    .p-cv-content{
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .ad-con {
+        border: 1px solid red;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 0px;
+        
+    }
+    .ad-con > div {
+        width: 32%;
+    }
+    .project-div {
+        display: block;
+        padding: 20px;
+    }
+    .pro-div1 {
+        width: 100%;
+        height: 232px;
+        background-image: url(2oHumW47sKQ.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .pro-div2{
+        padding: 15px 23px ;
+        width: 100%;
+        height: auto;
+        
+    }
+    .pro-div2 > p{
+        font-size: 14px;
+        
+    }
+    .pro-div2 > button{
+        margin-top: 10px;
+        width: 55%;
+        padding: 5px;
+        height: 25%;
+    }
+    .con-div {
+        display: block;
+        width: 100%;
+    }
+    .cont-div1 {
+        display: block;
+        width: 100%;
+        height: 319px;
+    }
+    .cont-div2{
+        width: 100%;
+    }
+    input {
+        padding: 5px;
+        font-size: 15px;
+    }
+    #name, #email {
+        height: 10%;
+    }
+    footer{
+        height: 100%;
+    } 
+    footer {
+        height: 100%;
+        padding: 5px;
+        
+    }
+    footer > p:first-of-type {
+        font-size: 20px;
+    }
+    footer > p:last-of-type {
+        font-size: 15px;
+        margin-top: 5px;
+        
+    }
+}
+
+
+
+
+@media screen and (max-width:480px) and (min-width:321px){
+    p{
+        font-size: 12px;
+    }
+    header{
+        display: block; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 100%;
+        background-color: rgb(255, 174, 0);
+        padding: 10px;
+        height: auto;
+        
+    }
+    #nav-icon{
+        margin: 5px 5px;
+    }
+    #experience{
+        width: 100%;
+        height: 320px;
+        margin-left: 0;
+        
+    }
+    #experience>div > button {
+        margin-left: 40px;
+        width: auto;
+        
+    }
+    .year{
+        width: 100%;
+    }
+    #header-img{
+        
+        width: 100%;
+        height: 86vh;
+    }
+    #skills{
+        width: 100%;
+        height: 100%;
+
+    }
+    #skills>div{
+        width: 100%;
+        height: 750px;
+    }
+    #skills> div > div{
+        width: 100%;
+        height: 240px;
+        display: block;
+    }
+    #skills> div > div > div{
+        width: 80%;
+        height: 100px;
+        margin: auto;
+        margin-top: 10px;
+        justify-content: space-between;
+        
+    }
+    .logo-text{
+        width: fit-content;
+    }
+    #services{
+        
+        width: 100%;
+        height: auto;
+        
+    }
+    #services > div {
+        /* display: block; */
+        width: 80%;
+        /* background-color: red; */
+        /* justify-content: space-evenly; */
+    }
+    #services > div > div{
+        width: 80%;
+        margin: 10px auto;
+    }
+    #services > div > div >.serve:last-of-type {
+        height: auto;
+        width: 100%;
+    }
+    #services > div > div >.serve:first-of-type {
+        height: 180px;
+        width: 100%;
+    }
+    #cv{
+        /* background-color: yellow; */
+        width: 100%;
+        
+    }
+    .cv-div{
+        width: 90%;
+        height: fit-content;
+    }
+    .cv-heading{
+        padding: 5px;
+    }
+
+    .cv-heading>h1{
+        font-size: 30px;
+    }
+    .cv-heading>div{
+        display: block;
+        margin: auto;
+    }
+    .each-profile > div {
+        font-size: 15px;
+        
+    }
+    .each-profile{
+        padding: 2px 0;
+
+    }
+    .cv-heading > div >div {
+        padding: 0 0;
+        
+    }
+    .each-profile > div > i{
+        font-size: 18px;
+        
+    }
+    .cv-content{
+        padding: 5px 5px;
+    }
+    .p-cv-content {
+        font-size: 13px;
+        font-weight: normal;
+        
+    }
+    .ad-con {
+        width: 100%;
+
+    }
+    .ad-con > div {
+        width: auto;
+    }
+    .pro-div2{
+        width: 100%;
+        padding: 4px 8px;
+        height: auto;
+        
+        
+    }
+    .pro-div2 > p{
+        padding-top: 5px;
+            
+    }
+    .pro-div2 > button{
+        width: 50%;
+        
+        padding: 5px;
+    }
+    .con-div{
+        display: block;
+        
+    }
+    .cont-div1 {
+        width: 100%;
+    
+    }
+    .cont-div2{
+    width: 100%;
+    }
+    footer>p:first-of-type{
+        font-size: 15px;
+    
+    }
+    footer>p:last-of-type{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:481px) and (max-width:768px){
+    header{
+        flex-direction: column;
+        height: fit-content;
+    }
+    h1{
+        font-size: 40px;
+
+    }
+    #header-img{
+        width: 70%;
+        margin: auto;
+    }
+     
+    
+    #experience{
+        width: 80%;
+        margin: auto;
+    }
+
+    #skills> div {
+        width: 100%;
+        height: 100%;
+        
+    }
+    #skills> div > div {
+        width: 100%;
+        height: 100%;
+        display: block;
+    
+    }
+    #skills> div > div> div {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        margin:  10px auto;
+        justify-content: space-between;
+    }
+    #services{
+        height: 100%;
+    }
+    #services > div {
+        width: 100%;
+        height: fit-content;
+        
+        
+    }
+    #services> div> div{
+        width: 70%;
+        margin: 15px auto;
+    }
+    #services > div >div>div{
+        
+        margin: 0px;
+    }
+    .cv-heading>div{
+        flex-direction: column;
+    }
+    @media screen and (min-width:481px) and (max-width:632px){
+        .cv-heading > div {
+            width: 100%;
+        }
+        .each-profile > div > i {
+            
+            font-size: 20px;
+        }
+    }
+    @media screen and (min-width:633px) and (max-width:768px){
+        .cv-div{
+            width: 100%;
+            
+        }
+       
+    }
+    
+
+
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .cv-div{
+            width: 100%;
+            
+        }
+    #services> div> div{
+        width: 70%;
+        margin: 15px auto;
+    }
+    /* #services>div{
+        width: 90%;
+        display: block;
+    }
+    #services>div >div{
+        width: 40%;
+        height: 100%;
+        /* margin: auto; */
+        
+    /* } */ 
+
+}
+@media screen and (min-width:993px) and (max-width:1500px){
+    #services>div{
+        width: 90%;
+        display: flex;
+        
+    }
+    #services>div >div{
+        width:33%;
+        height: 100%;
+        margin: 15px auto;
+        
+    }
+}
+
+
+
+
+@media screen and (min-width:769px) and (max-width:1500px){
+    
+    #header{
+        justify-content: space-around;
+        
+    }
+    
+    #header-img{
+        width: 50%;
+    }
+    
+
+
+    img[alt="PROFILE"] {
+    width: 100%;
+    height: 100vh;
+    }
+    #skills{
+        /* height: 100vh; */
+        width: 100%;
+    }
+    #skills>div{
+        height: fit-content;
+        width: 80%;
+        margin: 20px auto;
+    }
+    #skills>div>div{
+        height: 100%;
+        width: 95%;
+    }
+    #skills>div> div >div{
+        height: 100%;
+        width: 100%;
+        padding: 17px 12px;
+        justify-content: space-between;
+    }
+    #services{
+        height: fit-content;
+        
+    }
+    #services>div{
+        width: 90%;
+        /* display: block; */
+    }
+    #services>div >div{
+        width: 40%;
+        height: 100%;
+        /* margin: auto; */
+        
+    }#services div div .serve:first-of-type{
+        height: 50%;
+    }
+   #services div div .serve:last-of-type{
+    height: 50%;
+    }
+    /* img[alt="service-logo"] {
+        width: 100%;
+        
+    } */
+    .ser-p{
+        line-height: 20px;
+    }
+
+
+    h2{
+        font-size: 45px;
+    }
+    h4{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (min-width:1501px){
+    #header{
+        justify-content: space-between;
+        
+    }
+    
+    #header-img{
+        /* height: 100%; */
+        width: 50%;
+    }
+    img[alt="PROFILE"] {
+    width: 100%;
+    /* height: 100vh; */
+    }
+    
+    /* #header-content{
+        width: 50%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        
+    } */
+    #nav-icon{
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin: 60px 80px;
+        background-size: contain;
+    }
+    
+    #nav-icon > i {
+        font-size: 70px;
+        padding: 10px;
+    }
+
+    #experience{
+        padding: 15px;
+        margin-top: 150px;
+        
+        width: 100%;
+        
+    }
+
+
+    #experience >:first-of-type{
+        margin-left: 20px;
+        width: 100%;
+    }
+    #experience>div > button{
+        background-color: white;
+        color: black;
+        padding: 10px 15px;
+        font-size: 30px;
+        margin-left: 630px;
+        border-radius: 15px;
+        border-bottom-right-radius: 35px;
+        border-color: black;
+        width: 250px;
+        height: 65px;
+        margin-bottom: 30px;
+        border: 3.5px solid;
+    }
+
+    #experience>div >a> button{
+        background-color: white;
+        color: black;
+        padding: 20px 40px;
+        font-size: 52px;
+    
+        /* margin-left: 220px; */
+        border-radius: 15px;
+        border-bottom-right-radius: 55px;
+        border-color: black;
+        width: 400px;
+        height: 115px;
+        margin-bottom: 30px;
+    }
+    .year {
+        display: flex;
+        width: 100%;
+        height: 130px;
+        padding: 5px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    #div-num {
+        /* padding: 5px auto; */
+        width: 100px;
+        height: 100px;
+        /* padding-right: 20px; */
+    }
+    
+    .num {
+        font-size: 150px;
+        font-weight: 500;
+        color: black;
+        /* text-align: center; */
+        align-items: center;
+        font-style: italic;
+    }
+    .div-p{
+        width: 50%;
+        
+    }
+    .div-p>p{
+        line-height: 50px;
+        font-size: 50px;
+    }
+    h1 {
+        margin-left: 120px;
+        font-size: 90px;
+
+    }
+    
+
+    /* p {
+        font-size: 35px;
+        color: grey;
+        line-height: 25px;
+        font-family: "Poppins", sans-serif;
+    } */
+    #skills{
+        height: 100vh;
+    }
+    #skills>div{
+        height: 60%;
+        margin: auto;
+        margin-top: 150px;
+        width: 80%;
+    }
+    #skills>div>div{
+        height: 30%;
+        margin: 25px auto;
+        justify-content: space-evenly;
+        width: 95%;
+    }
+    #skills>div>div>div{
+        height: 90%;
+        width: 45%;
+        justify-content: space-between;
+    }
+    .skill-text{
+        width: 80%;
+        
+    }
+    .skill-icon{
+        width: 5%;
+        /* align-self: center; */
+        font-size: 40px;
+    }
+    .skill-icon>i{
+        font-size: 50px;
+    }
+    .logo-text{
+        width: 85%;
+        height: 80%;
+        margin-top: 25px;
+        line-height: 45px;
+    }
+    img[alt="skill-logo"]{
+        width: 100%;
+        height: 80%;
+        margin-top: 25px;
+    }
+    .logo1{
+        width: 250px;
+    }
+    img[alt="skill-logo"]{
+        width: 100%;
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo-text>p:first-of-type{
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 15px;
+
+    }
+    .logo-text>p:last-of-type{
+        font-size: 59px;
+        margin-top: -14px;
+        margin-left: 15px;
+        line-height: 57px;
+
+    }
+   
+    h4{
+        font-size: 50px;
+    }
+    #services{
+        height: 100vh;
+        /* background-color: pink; */
+    }
+    #services > div {
+        
+        width: 85%;
+        height: 60vh;
+        margin-top: 60px;
+        display: flex;
+        
+    }
+    #services > div>div {
+        
+        height: 100%;
+        
+    }
+    #services > div>div:hover {
+        
+        background-color: #cedef0;
+        color: black;
+        transition: 0.5s;
+        
+    }
+    #services > div>div>.serve:first-of-type {
+        
+        height: 50%
+        
+    }
+    #services > div>div>.serve:last-of-type {
+        
+        height: 50%
+        
+    }
+    .serve:last-of-type>h3{
+        font-size: 38px;
+        padding: 10px;
+
+    }
+    .ser-p{
+        line-height: 50px;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    #services > div>div:hover>.serve:last-of-type>.ser-p {
+        
+        color:#06223F;
+        font-weight: bold;
+        
+        
+    }
+    #cv{
+        width: 100%;
+        height: fit-content;
+    }
+    .cv-div{
+        width: 80%;
+        height: fit-content;
+
+    }
+    .cv-heading{
+        width: 100%;
+        height: 20%;
+
+    }
+    .cv-content{
+        width: 100%;
+        height: 80%;
+        
+    }
+    .cv-content>div{
+        margin-top: 40px;
+    }
+    h5{
+        font-size: 52px;
+        font-weight: 900;
+        letter-spacing: 5px;
+        margin-bottom: 5px;
+
+    }
+    .cv-content>div>p{
+        font-size: 47px;
+        line-height: 69px;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        font-weight: 600;
+        /* color: red; */
+    }
+    .cv-content>div>ul>li>p{
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        font-weight: 600;
+        /* color: red; */
+    }
+    .p-cv-content {
+        font-size: 49px;
+        
+    }
+    .education>div>div>p{
+        font-size: 50px;
+        line-height: 73px;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        font-weight: 600;
+        /* color: red; */
+    }
+    
+    .cv-content>div>ul{
+        font-size: 40px;
+        list-style-type: square;
+    }
+    .ad-con >div >p:last-of-type{
+        font-size: 49px;
+        line-height: 79px;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        font-weight: 600;
+        /* color: red; */
+    }
+    .each-profile> div{
+        font-size: 66px;
+    }
+    .each-profile> div i{
+        font-size: 45px;
+        margin-left: 15px;
+        margin-right: 25px;
+    }
+    #project{
+        height: 100vh;
+    }
+    p{
+        font-size: 55px;
+        line-height: 71px;
+    }
+    #project>div{
+        height: 60%;
+        width: 80%;
+        margin-top: 100px;
+    }
+    .pro-div1{
+        /* width: 30%; */
+        height: 100%;
+    }
+    .pro-div2{
+        /* width: 30%; */
+        height: 30%;
+        border-radius: 33px;
+        border-bottom-right-radius: 150px;
+        line-height: 100px;
+        padding: 30px 20px;
+    }
+   
+    .pro-div2 button{
+        width: 45%;
+        height: 35%;
+        border-radius: 16px;
+        border-bottom-right-radius: 45px;
+        padding: 10px 15px;
+        margin-left: 32px;
+        margin-top: 26px;
+        font-size: 30px;
+    }
+    .pro-div2 > a button{
+        
+        padding: 10px 15px;
+        font-size: 43px;
+        border-radius: 44px;
+        border-bottom-right-radius: 107px;
+        cursor: pointer;
+        width: 308;
+        height: 97px;
+        
+    }
+    h2{
+        font-size: 135px;
+        margin-left: 30px;
+
+    }
+    h4{
+        font-size: 90px;
+        margin-left: 30px;
+        color: cadetblue;
+    }
+    #contact{
+        height: 100vh;
+    }
+    .con-div{
+        width: 80%;
+        height: 60%;
+        margin: 100px auto;
+
+    }
+    .cont-div1{
+        width: 63%;
+
+    }
+    .cont-div2{
+        width: 49%;
+    }
+    .cont-div2>div{
+        margin-top: 70px;
+    }
+    #name{
+        height: 18%;
+        font-size: 74px;
+    }
+    #email{
+        font-size: 79px;
+    }
+    textarea{
+        height: 250px;
+        font-size: 6px;
+    }
+    .cont-div1>button{
+        padding: 29px 42px;
+        font-size: 53px;
+        font-weight: bold;
+        margin-top: 15px;
+        height: 9%;
+        width: 300px;
+    }
+    footer{
+        height: 11vh;
+    }
+    footer>p:first-of-type{
+        font-size: 65px;
+    }
+    footer>p:last-of-type{
+        font-size: 58px;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+}
